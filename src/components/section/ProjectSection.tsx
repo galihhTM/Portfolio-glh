@@ -6,7 +6,6 @@ import {
     Maximize2,
     X,
     ExternalLink,
-    CheckCircle2,
     GitCommitHorizontal,
 } from 'lucide-react';
 

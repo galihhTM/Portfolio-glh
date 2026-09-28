@@ -1,4 +1,4 @@
-import { useEffect, ReactNode } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import Lenis from 'lenis';
 import { gsap, ScrollTrigger } from '../../lib/gsap';
 

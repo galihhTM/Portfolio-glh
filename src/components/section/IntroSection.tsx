@@ -79,13 +79,13 @@ export default function IntroSection() {
                 
                 <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed font-normal overflow-hidden">
                     <span
-                    ref={(el) => (linesRef.current[0] = el)}
+                    ref={(el) => { linesRef.current[0] = el; }}
                     className="block opacity-0 transform-gpu"
                     >
                     Hai, aku <strong className="text-white font-semibold">Galih Min Fadlil</strong>. Mahasiswa S1 Teknologi Informasi di Universitas Bina Sarana Informatika & Full-Stack Web Developer.
                     </span>
                     <span
-                    ref={(el) => (linesRef.current[1] = el)}
+                    ref={(el) => { linesRef.current[1] = el; }}
                     className="block opacity-0 transform-gpu mt-2"
                     >
                     Aku memiliki pengalaman dalam pengembangan <span className="text-neutral-100 font-medium">Laravel, React, Next.js</span> untuk membangun aplikasi web modern.
@@ -94,13 +94,13 @@ export default function IntroSection() {
 
                 <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed font-normal overflow-hidden">
                     <span
-                    ref={(el) => (linesRef.current[2] = el)}
+                    ref={(el) => { linesRef.current[2] = el; }}
                     className="block opacity-0 transform-gpu"
                     >
                     Aku juga memiliki minat yang besar dalam bidang <span className="text-neutral-100 font-medium">Cybersecurity</span>, dengan fokus pada <span className="text-neutral-100 font-medium">penetration testing, ethical hacking, dan keamanan aplikasi web</span>.
                     </span>
                     <span
-                    ref={(el) => (linesRef.current[3] = el)}
+                    ref={(el) => { linesRef.current[3] = el; }}
                     className="block opacity-0 transform-gpu mt-2"
                     >
                     Aku berkomitmen untuk terus belajar dan mengembangkan keterampilan di bidang ini, karena aku senang menghadapi tantangan baru dan mengupgrade diriku satu langkah kedepan.

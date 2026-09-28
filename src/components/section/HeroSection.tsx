@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { gsap, ScrollTrigger } from '../../lib/gsap';
-import { Plus, ArrowUpRight, Mail, Sparkles } from 'lucide-react';
+import { gsap } from '../../lib/gsap';
+import { Plus, Mail } from 'lucide-react';
 
 export default function HeroSection() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -174,7 +174,7 @@ export default function HeroSection() {
                 {letters.map((char, index) => (
                     <span
                     key={index}
-                    ref={(el) => (letterRefs.current[index] = el)}
+                    ref={(el) => { letterRefs.current[index] = el; }}
                     className="inline-block opacity-0 transform-gpu min-w-[0.3em]"
                     >
                     {char === ' ' ? '\u00A0' : char}
